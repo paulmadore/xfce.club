@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>XFCE Loyalists Worldwide</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="lander">
+<h1>XFCE LOYALISTS WORLDWIDE</h1>
+<h2 id="coming-soon" alt="click anywhere">Coming soon.</h2>
+<h3 id="coming-soon-2" style="text-align: center;">meantime, click anywhere</h3>
+<script>
+$( "#hover-pop" ).click(function() {
+  alert( "Handler for .click() called." );
+});
+
+</script>
+<div id="infobox" hidden>
+<h2><a href="http://xfce.org" target="_blank">XFCE</a></h2>
+<h2><a href="http://xubuntu.org" target="_blank">Xubuntu</a></h2>
+<h2><a href="https://www.facebook.com/xfceloyalists/" target="_blank">Join us on Facebook</a></h2>
+<p class="declaration">Because inferior desktop environments continue to steal the attention of the masses, we, the XFCE Loyalists, intend to put XFCE front and center in all discussions regarding user experience, desktop environment, efficiency, and productivity. <span style="color: #E82F3A;">Mice of the world, unite!</span></h3>
+</div>
+</div>
+<script>
+    jQuery(document).ready(function(){
+$( document ).click(function() {
+  $("#infobox").show();
+  $("#coming-soon").hide();
+  $("#coming-soon-2").hide();
+});
+});
+</script>
+<footer>
+    <h3>background by <a href="http://www.deviantart.com/art/Xfce-canvas-wallpaper-444884982" target="_blank">Kim Jong-Basinger</a> / font <a href="https://www.xfce-look.org/p/998564/" target="_blank">RawengulkSans by gluk</a></h3>
+</footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'rawengulksansregular';
+    src: url('../fonts/rawengulksans.eot');
+    src: url('../fonts/rawengulksans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rawengulksans.woff2') format('woff2'),
+         url('../fonts/rawengulksans.woff') format('woff'),
+         url('../fonts/rawengulksans.ttf') format('truetype'),
+         url('../fonts/rawengulksans.svg#rawengulksansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #d9f2f6;
+    background-image: url("../img/paper.png");
+    background-size: cover;
+}
+
+#lander {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 66%;
+        
+}
+
+a:hover {
+    color: #ccc;
+}
+
+h1 {
+        color: #6FD7E5;
+        font-family: "rawengulksansregular";
+        font-size: 48pt;
+        text-align: center;
+}
+
+h1 a {
+    color: #6FD7E5;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
+
+h2 {
+        color: #BFF3FB;
+        font-family: "rawengulksansregular";
+        font-size: 28pt;
+        text-align: center;
+        
+}
+
+h2 a {
+    color: #BFF3FB;        
+    border-bottom: 1px dotted;
+    text-decoration: none;
+}
+
+
+h3 {
+        color: #b5d9de;
+        font-family: monospace;
+        font-size: 15pt;
+        text-align: right;
+        
+}
+
+h3 a {
+        color: #b5d9de;
+border-bottom: 1px dotted;
+text-decoration: none;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:20px;
+   height:30px;
+   width:100%;
+}
+
+/* temp */
+
+#infobox {
+    border-radius: 25px;
+    box-shadow: #BFF3FB 5px 5px;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;   
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); 
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 );
+}
+
+.declaration {
+    font-family: "rawengulksansregular";
+    font-size: 16pt;
+    color: #ccc;
+    text-shadow: #e3ec7e 1px 0px;
+    padding: 15px;
+    font-weight: 600;
+    
+}
+
